@@ -63,3 +63,35 @@ Ensure the following are installed:
 - viz_code.R
 - Make sure the dataset (businessdemographyexceltables2024.xlsx) and 'viz_code.R' are in the working directory.
 - Note: You can see the working directory by using 'getwd()'.
+
+
+## Key Outputs
+- Composite Visualisation (2×2):
+  1. outputs/ONS_Business_Demography_Composite_2x2.png
+
+- Individual chart exports:
+  1. chart1_churn_portfolio_2024.png
+  2. chart2_churn_rank_shifts_2019_2024.png
+  3. chart3_net_change_heatmap_2019_2024.png
+  4. chart4_survival_attrition_2019_cohort.png
+
+## Key Insights 
+### Regional churn and net change (2019–2024)
+- Regional enterprise dynamics are heterogeneous even after normalising by active enterprise stock. Some regions occupy a “high churn” profile (high births and high deaths per 100 active), while others reflect lower turnover.
+- Relative churn standing (rank) changes between 2019 and 2024 for certain regions, suggesting that single-year snapshots can be misleading when used alone.
+- Net change intensity is not uniform across years; the heatmap highlights year-by-year shifts that are not visible from a 2024-only view.
+
+### Survival resilience (2019 cohort)
+- Survival losses are not evenly distributed across time; attrition is commonly concentrated in earlier intervals (e.g., 1→2 years), supporting a resilience interpretation that is distinct from annual churn.
+- Comparing churn alongside survival helps avoid simplistic conclusions (e.g., “high churn is always good/bad”) by introducing a longer-run persistence lens.
+
+## Limitations
+- The analysis is constrained to variables and formatting provided in the published ONS reference tables.
+- Rates per 100 active improve comparability, but regional comparisons can still reflect structural differences (sector mix, firm size distribution, and macro conditions).
+- Visualisations are descriptive, not causal; they identify patterns rather than mechanisms.
+
+## Future Work
+- Extend the composite by integrating sector-level dynamics (SIC group profiles) and linking churn patterns to survival outcomes.
+- Add uncertainty/context notes (e.g., definitional constraints, revisions) as part of reproducible metadata reporting.
+- Evaluate forecasting baselines (if added later) against time-series methods (ETS/ARIMA) and quantify whether complexity yields meaningful performance gains.
+- Automate table validation (sheet existence, header detection, type checks) to make the pipeline more robust to ONS format updates.
