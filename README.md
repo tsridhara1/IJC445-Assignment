@@ -12,15 +12,15 @@
 
 ## Data Source
 - **ONS Business Demography reference tables** (Excel workbook):  
-  `businessdemographyexceltables2024.xlsx`
+  `businessdemographyexceltables2024.xlsx'
 The workflow reads regional births, deaths, and active enterprises (Tables 1.1*, 2.1*, 3.1*) and regional survival (Table 4.1), then derives rate-based indicators to enable fair cross-region comparisons.
 
 
 ## Analytical Techniques
 
 ### 1) Data Cleaning and Structuring
-- Import ONS reference tables using `readxl`
-- Convert ONS placeholders (e.g., `":"`) to missing values (`NA`)
+- Import ONS reference tables using 'readxl'
+- Convert ONS placeholders (e.g., ":") to missing values ('NA')
 - Standardise region identifiers and reshape to tidy format (region-year panel)
 
 ### 2) Rate Construction (comparability across regions)
@@ -58,7 +58,7 @@ Ensure the following are installed:
   - Use your package manager (Linux).
 4. Clone the Repository
 - To clone the repository from GitHub: git clone https://github.com/tsridhara1/IJC445-Assignment.git
-- Open the `IJC445-Assignment` file in your RStudio working directory.
+- Open the 'IJC445-Assignment' file in your RStudio working directory.
 5. Run Scripts
 - viz_code.R
 - Make sure the dataset (businessdemographyexceltables2024.xlsx) and 'viz_code.R' are in the working directory.
