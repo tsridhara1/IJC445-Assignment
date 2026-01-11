@@ -66,10 +66,10 @@ Ensure the following are installed:
 
 
 ## Key Outputs
-- Composite Visualisation (2×2):
-1. ONS_Composite.png
+### Composite Visualisation (2×2):
+1. composite_view.png
 
-- Individual chart exports:
+### Individual chart exports:
 1. chart1_churn_portfolio_2024.png
 2. chart2_churn_rank_shifts_2019_2024.png
 3. chart3_net_change_heatmap_2019_2024.png
