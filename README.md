@@ -44,3 +44,22 @@ The primary output is a composite layout of four charts:
 
 4. **Where survival falls (Horizontal stacked bars, 2019 cohort)**  
    Interval drops in survival (1→2, 2→3, 3→4, 4→5 years), focusing on top regions by 5-year survival.
+
+
+
+## Setup Instructions
+1. Prerequisites
+Ensure the following are installed:
+- R: Version 4.0+
+- RStudio
+- Git (optional, for version control)
+2. Install R and R Studio
+  - Download https://posit.co/download/rstudio-desktop/ (Windows/macOS).
+  - Use your package manager (Linux).
+4. Clone the Repository
+- To clone the repository from GitHub: git clone https://github.com/tsridhara1/IJC445-Assignment.git
+- Open the `IJC445-Assignment` file in your RStudio working directory.
+5. Run Scripts
+- viz_code.R
+- Make sure the dataset (businessdemographyexceltables2024.xlsx) and 'viz_code.R' are in the working directory.
+- Note: You can see the working directory by using 'getwd()'.
