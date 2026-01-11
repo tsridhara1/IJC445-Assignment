@@ -67,13 +67,13 @@ Ensure the following are installed:
 
 ## Key Outputs
 ### Composite Visualisation (2×2):
-1. composite_view.png
+1. 'composite_view.png'
 
 ### Individual chart exports:
-1. chart1_churn_portfolio_2024.png
-2. chart2_churn_rank_shifts_2019_2024.png
-3. chart3_net_change_heatmap_2019_2024.png
-4. chart4_survival_attrition_2019_cohort.png
+1. 'chart1_churn_portfolio_2024.png'
+2. 'chart2_churn_rank_shifts_2019_2024.png'
+3. 'chart3_net_change_heatmap_2019_2024.png'
+4. 'chart4_survival_attrition_2019_cohort.png'
 
 ## Key Insights 
 ### Regional churn and net change (2019–2024)
